@@ -1,0 +1,14 @@
+.textos-importantes {
+    font-size: 35pt;
+    color: blueviolet;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.texto-normal {
+    background-color: lightgray;
+}
+
+.azul {
+    color: blue;
+}
