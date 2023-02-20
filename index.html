@@ -7,7 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+          
 </head>
 
 <body>
@@ -43,6 +48,33 @@
 
     <input type="text" name="task" id="input-task">
     <button onclick="agregarItem()"> agregar</button>
+
+    <hr>
+
+    <article class="row">
+        <div class="col s3">
+          <div class="card">
+            <div class="card-image">
+              <img src="https://cdn.pixabay.com/photo/2012/08/27/14/19/mountains-55067_960_720.png" >
+              <span class="card-title">Card Title</span>
+            </div>
+            <div class="card-content">
+              <p>I am a very simple card. I am good at containing small bits of information.
+              I am convenient because I require little markup to use effectively.</p>
+            </div>
+            <div class="card-action">
+              <button class="btn-flat">This is a link</button>
+            </div>
+          </div>
+        </div> 
+      </article>
+
+<hr>
+
+      <section id="cards-container"></section>
+      <hr>
+
+      <button onclick="cambiarAttr()"> cambiar attributo</button>
 
     <script src="script.js"></script>
 </body>
